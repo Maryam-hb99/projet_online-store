@@ -1,0 +1,83 @@
+/* Custom CSS */
+body {
+    font-family: "Jost", sans-serif;
+}
+.custom-navbar {
+    background-color: #2C3E50; /* Change to your desired color */
+}
+
+.custom-navbar .nav-link {
+    color: #ECF0F1; /* Adjust link color if needed */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #FFD700; /* Change hover color if desired */
+}
+
+.header-title {
+    font-size: 3.5rem; /* Adjust size as needed */
+    color: #504c67; /* Change the text color to white for better contrast */
+}
+
+header {
+    background-image: url(res/background_img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh; /* Maintain your height setting */
+    color: black; /* Change this if needed */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items to the bottom */
+    padding: 0 15px; /* Optional: Add padding */
+}
+
+.container {
+    width: 100%; /* Ensure the container takes full width */
+    
+}
+
+.product-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-section p {
+    font-size: 1.2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.card-price {
+    font-size: 1.25rem; /* Adjust size as needed */
+    margin-top: 10px; /* Space above the price */
+    font-weight: bold; /* Make the price bold */
+}
+
+#contact {
+    background-color: #f8f9fa; /* Light background color for contrast */
+    padding: 20px; /* Padding around the section */
+    border-radius: 8px; /* Rounded corners */
+}
+footer {
+    background-color: #333;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .product-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-body p {
+        font-size: 0.9rem;
+    }
+}
